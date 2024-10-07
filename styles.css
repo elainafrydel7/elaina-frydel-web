@@ -20,9 +20,9 @@
   
   /* Header styles */
   .header {
-    background-color: #007BFF;
+    background-color: #fdc4fd;
     color: white;
-    height: 20vh;
+    height: 15vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,7 +106,7 @@
   }
   
   .contact a {
-    color: #007BFF;
+    color: #fdc4fd;
     text-decoration: none;
     font-weight: bold;
   }
@@ -117,7 +117,7 @@
   
   /* Footer style */
   footer {
-    background-color: #333;
+    background-color: #fdc4fd;
     color: white;
     text-align: center;
     padding: 20px 0;

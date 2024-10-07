@@ -1,22 +1,9 @@
-/* ||General styles 
-order is:
- body
- paragraph
- headers
- ul & ol
- table properities
- links
-*/
-
-
-/* Removes padding from banner */
 body {
     margin: 0px;
     border: 0px;
     padding: 0px;
 }
 
-/* Wrapper for the table */
 .wrapper{
     max-width: 80vw;
     max-height: 50vh;
@@ -29,7 +16,6 @@ body {
     margin-right: auto;
 }
 
-/* Text formatting */
 .text {
     color: #000000;
     text-align: center;
@@ -37,7 +23,6 @@ body {
     overflow: auto;
 }
 
-/* Fun fact formatting */
 .funfact {
     text-align: center;
 }
@@ -51,7 +36,6 @@ body {
     opacity: 0.5;
 }
   
-
 .boxleft {
     height: 50vh;
     width: 80vw;

@@ -1,0 +1,130 @@
+.resumeContainer {
+    max-width: 100vw;
+}
+
+.institutionWrapper {
+    display: flex;
+    flex-direction: row;
+    max-width: 100vw;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.institutionName{
+    margin-bottom: auto;
+    text-align: left;
+    flex: 50%;
+    padding-left: 5%;
+    font-size: 1.25em;
+}
+
+.institutionLocation{
+    margin-bottom: auto;
+    overflow: auto;
+    text-align: right;
+    flex: 50%;
+    padding-right: 5%;
+}
+
+.positionWrapper {
+    display: flex;
+    flex-direction: row;
+    max-width: 100vw;
+    margin-top: 2%;
+}
+
+.positionLeft{
+    margin-bottom: auto;
+    text-align: left;
+    flex: 50%;
+    padding-left: 5%;
+    font-size: 0.875em;
+}
+
+.positionRight{
+    margin-bottom: auto;
+    overflow: auto;
+    text-align: right;
+    flex: 50%;
+    padding-right: 5%;
+    font-size: 0.875em;
+}
+
+
+.hearts {
+    list-style: none;
+    padding-left: 3%;
+}
+
+.heartBullets::before {
+    list-style: none;
+    content: "\2665";
+    color: #96386c;
+    margin-right: 0.3125em;
+} 
+
+.underline {
+    text-decoration-color: #ffc0cb;
+}
+
+
+.experienceWrapper {
+    display: flex;
+    flex-direction: row;
+    max-width: 100vw;
+}
+
+.experienceLeft {
+    margin-bottom: auto;
+    text-align: left;
+    flex: 50%;
+    padding-left: 7%;
+    font-size: 0.75em;
+}
+
+.experienceRight {
+    margin-bottom: auto;
+    overflow: auto;
+    text-align: right;
+    flex: 50%;
+    padding-right: 7%;
+    font-size: 0.75em;
+}
+
+.heartBulletsExper::before {
+    list-style: none;
+    content: "\25C6";
+    color: #000000;
+    margin-right: 0.3125em;
+}
+
+.skillsWrapper {
+    display: flex;
+    flex-direction: row;
+    max-width: 100vw;
+    font-size: 0.75em;
+}
+
+.skillsLeft {
+    margin-bottom: auto;
+    text-align: left;
+    flex: 50%;
+    padding-left: 9%;
+    font-size: 0.75em;
+}
+
+.skillsRight {
+    margin-bottom: auto;
+    overflow: auto;
+    text-align: right;
+    flex: 50%;
+    padding-right: 9%;
+    font-size: 0.75em;
+}
+
+.heartBulletsSkill::before {
+    list-style: none;
+    content: "\2665";
+    color: #6686ed;
+    margin-right: 0.75em;
+} 

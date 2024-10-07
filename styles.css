@@ -20,7 +20,7 @@
   
   /* Header styles */
   .header {
-    background-color: #fdc4fd;
+    background-color: #043975;
     color: white;
     height: 15vh;
     display: flex;
@@ -106,7 +106,7 @@
   }
   
   .contact a {
-    color: #fdc4fd;
+    color: #043975;
     text-decoration: none;
     font-weight: bold;
   }
@@ -117,7 +117,7 @@
   
   /* Footer style */
   footer {
-    background-color: #fdc4fd;
+    background-color: #043975;
     color: white;
     text-align: center;
     padding: 20px 0;

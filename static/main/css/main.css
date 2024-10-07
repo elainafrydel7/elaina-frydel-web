@@ -1,0 +1,92 @@
+/* ||General styles 
+order is:
+ body
+ paragraph
+ headers
+ ul & ol
+ table properities
+ links
+*/
+
+
+/* Removes padding from banner */
+body {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+/* Wrapper for the table */
+.wrapper{
+    max-width: 80vw;
+    max-height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Text formatting */
+.text {
+    color: #000000;
+    text-align: center;
+    text-justify: inter-word;
+    overflow: auto;
+}
+
+/* Fun fact formatting */
+.funfact {
+    text-align: center;
+}
+
+.b {
+    padding-inline: 10px;
+    text-align: left;
+}
+
+.b:hover {
+    opacity: 0.5;
+}
+  
+
+.boxleft {
+    height: 50vh;
+    width: 80vw;
+    margin-bottom: auto;
+    max-height: 50vh;
+   
+}
+
+.boxright {
+    width: 80vw;
+    margin-bottom: auto;
+    margin-top: auto;
+    text-align: center, justify;
+    overflow: auto;
+}
+
+@media screen and (max-width: 650px) {
+    .wrapper {
+        display: grid;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 80vh;
+        max-height: fit-content;
+    }
+
+    .boxright {
+        overflow: visible;
+        max-height: fit-content;
+    }
+
+    .boxleft {
+        max-height: fit-content;
+    }
+}

@@ -1,0 +1,118 @@
+/* ||General styles */
+
+
+
+/* ||Utilities */
+.title {
+    color: #000000;
+    text-align: left;
+    font-size: 20px;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #ffc0cb;
+    overflow: hidden;
+}
+
+.a {
+    float: right;
+    padding-inline: 10px;
+    vertical-align: center;
+}
+
+.linkedin {
+    float: right;
+    padding-inline: 10%; 
+    vertical-align: center;
+    visibility: visible;
+}
+
+.a:hover {
+    opacity: 0.5;
+}
+
+
+
+#hamburger{
+    visibility: hidden;
+    display: none;
+}
+
+#input {
+    display: none;
+}
+
+#sidebar .items {
+    text-align: center;
+}
+
+#sidebar .items:hover {
+    opacity: 0.5;
+}
+
+
+#hamburger #sidebar
+{
+    display: hidden;
+    position: fixed;
+    width: 20%;
+    height: 40%;
+    box-sizing: 20%;
+    top: 0;
+    right: -50%;
+}
+
+
+#input:checked + #hamburger #sidebar{
+    right: 0;
+    visibility: visible;
+    width: 30%;
+}
+
+
+
+.list {
+    display: block;
+    float: right;
+}
+
+.wide {
+    visibility: visible;
+    display: block;
+    float: right;
+}
+
+.menu-icon {
+    display: hidden;
+}
+
+
+@media screen and (max-width: 650px) {
+    .menu-icon {
+        display: visible;
+     
+    }
+    #hamburger {
+        visibility: visible;
+        display: inline;
+        float: right;
+        width: 21vw;
+    }
+
+    #sidebar{
+        visibility: visible;
+        position: active;
+        right: auto;
+        width: 30vw;
+        background-color: #ffc0cb;
+    }
+
+    .linkedin {
+        visibility: hidden;
+    }
+    
+    .wide {
+        visibility: hidden;
+    }
+}

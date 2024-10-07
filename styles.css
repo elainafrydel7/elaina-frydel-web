@@ -115,7 +115,7 @@
     text-decoration: underline;
   }
   
-  /* Footer */
+  /* Footer style */
   footer {
     background-color: #333;
     color: white;
@@ -126,4 +126,3 @@
   footer p {
     font-size: 16px;
   }
-  
